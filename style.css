@@ -19,6 +19,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    transition: all .20s ease;
 }
 
 /* Layout Styles */
@@ -185,4 +186,18 @@ footer .footer-text {
 
 .mdi-linkedin:hover, .mdi-github:hover {
     color: var(--green-color);
+}
+
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    
+    #navbar ul {
+        gap: 15px;
+    }
+    
+    #navbar ul li {
+        font-size: 0.8rem;
+    }
 }
