@@ -1,3 +1,6 @@
+import loadHome from "./home";
+import loadMenu from "./menu";
+import loadContact from "./contact";
 
 // Function to create elements under the Header section
 function createHeader() {
@@ -22,7 +25,7 @@ function createHeader() {
                 homeNav.addEventListener("click", (e) => {
                     if (e.target.classList.contains("active")) return;
                     setActiveButton(homeNav);
-                    // Add Here Load for Home
+                    loadHome();
                 });
 
                 const menuNav = document.createElement(`li`);
@@ -30,7 +33,7 @@ function createHeader() {
                 menuNav.addEventListener("click", (e) => {
                     if (e.target.classList.contains("active")) return;
                     setActiveButton(menuNav);
-                    // Add Here Load for Menu
+                    loadMenu();
                 });
 
                 const contactNav = document.createElement(`li`);
@@ -38,7 +41,7 @@ function createHeader() {
                 contactNav.addEventListener("click", (e) => {
                     if (e.target.classList.contains("active")) return;
                     setActiveButton(contactNav);
-                    // Add Here Load for Contact
+                    loadContact();
                 });
 
                 ul.append(homeNav,menuNav,contactNav);
@@ -120,6 +123,9 @@ function initializeWebsite() {
     content.appendChild(createHeader());
     content.appendChild(createMain());
     content.appendChild(createFooter());
+
+    setActiveButton(document.querySelector(`li`));
+    loadHome();
 }
 
 export default initializeWebsite;
