@@ -97,6 +97,12 @@ footer {
     color: var(--light-color);
 }
 
+#navbar ul li.active {
+    border-bottom: 4px solid var(--green-color);
+    color: var(--dark-color);
+    transform: translateY(-20%)
+}
+
 #navbar ul li:hover {
     border-bottom: 4px solid var(--green-color);
     color: var(--dark-color);
