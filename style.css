@@ -25,7 +25,7 @@
 /* Layout Styles */
 
 #content {
-    background-image: url(../src/images/pizza-background.jpg);
+    background-image: url(./images/pizza-background.jpg);
     background-size: cover;
     min-height: 100vh;
     display: grid;
