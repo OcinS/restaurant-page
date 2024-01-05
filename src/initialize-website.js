@@ -12,7 +12,7 @@ function createHeader() {
 
             const logo = document.createElement(`img`);
             logo.id = `logo`;
-            logo.src = `../src/images/pizzathena-logo.png`;
+            logo.src = `./src/images/pizzathena-logo.png`;
             logo.alt = `Pizzathena Logo`;
 
             const navBar = document.createElement(`nav`);

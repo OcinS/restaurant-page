@@ -16,7 +16,7 @@ function createMenuGrid() {
 
             const itemImg1 = document.createElement(`img`);
             itemImg1.className = `item-img`;
-            itemImg1.src = `../src/images/spinach-and-feta.jpg`;
+            itemImg1.src = `./src/images/spinach-and-feta.jpg`;
             itemImg1.alt = `test`;
 
             const itemName1 = document.createElement(`h2`);
@@ -34,7 +34,7 @@ function createMenuGrid() {
 
             const itemImg2 = document.createElement(`img`);
             itemImg2.className = `item-img`;
-            itemImg2.src = `../src/images/pacific-veggie.jpg`;
+            itemImg2.src = `./src/images/pacific-veggie.jpg`;
             itemImg2.alt = `test`;
 
             const itemName2 = document.createElement(`h2`);
@@ -52,7 +52,7 @@ function createMenuGrid() {
 
             const itemImg3 = document.createElement(`img`);
             itemImg3.className = `item-img`;
-            itemImg3.src = `../src/images/meatzza.jpg`;
+            itemImg3.src = `./src/images/meatzza.jpg`;
             itemImg3.alt = `test`;
 
             const itemName3 = document.createElement(`h2`);
@@ -70,7 +70,7 @@ function createMenuGrid() {
 
             const itemImg4 = document.createElement(`img`);
             itemImg4.className = `item-img`;
-            itemImg4.src = `../src/images/pepperoni.jpg`;
+            itemImg4.src = `./src/images/pepperoni.jpg`;
             itemImg4.alt = `test`;
 
             const itemName4 = document.createElement(`h2`);
@@ -88,7 +88,7 @@ function createMenuGrid() {
 
             const itemImg5 = document.createElement(`img`);
             itemImg5.className = `item-img`;
-            itemImg5.src = `../src/images/bacon-and-mushroom.jpg`;
+            itemImg5.src = `./src/images/bacon-and-mushroom.jpg`;
             itemImg5.alt = `test`;
 
             const itemName5 = document.createElement(`h2`);
@@ -106,7 +106,7 @@ function createMenuGrid() {
 
             const itemImg6 = document.createElement(`img`);
             itemImg6.className = `item-img`;
-            itemImg6.src = `../src/images/pizza-deluxe.jpg`;
+            itemImg6.src = `./src/images/pizza-deluxe.jpg`;
             itemImg6.alt = `test`;
 
             const itemName6 = document.createElement(`h2`);
