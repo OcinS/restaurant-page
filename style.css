@@ -271,14 +271,14 @@ footer .footer-text {
     }
 
     .contact-information {
-        width: 400px;
+        width: 320px;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
 
     .contact-information {
-        width: 100%;
+        width: 280px;
     }
 
     .contact-section {
@@ -286,7 +286,7 @@ footer .footer-text {
     }
 }
 
-@media (max-width: 357px) {
+@media (max-width: 375px) {
 
     #navbar ul {
         gap: 15px;
